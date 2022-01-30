@@ -11,4 +11,4 @@ Three design patterns, Singleton, Observer and Memento, are used here:
 
 - Memento: the Memento design pattern here is used to implement the "undo" function. There is a "Memento" class used to record the board. Whenever a move is executed, a new instance of Memento is generated to record the board. The class MementoCaretaker will push this instance into a stack. Whenever the "undo" button is hit, the stack will pop the top memento out and sent the second-to-top momento to the board. 
 
-If you have any advises to improve this game or find some bugs in it, please contact me. 
+If you have any advises to improve this game or find some bugs in it, please let me know. 
